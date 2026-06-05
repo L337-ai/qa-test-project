@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qa-test-project"
+version = "0.1.0"
+description = "QA test fixture: project depending on qa-test-library for agent-coder end-to-end tests"
+authors = []
+readme = "README.md"
+packages = [{include = "qa_test_project", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qa-test-library = {git = "https://github.com/L337-ai/qa-test-library.git", branch = "main"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
