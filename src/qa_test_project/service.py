@@ -8,3 +8,6 @@ class LibraryService:
             "names": [item.name for item in items],
             "labels": [item.label for item in items],
         }
+
+    def summarize(self) -> str:
+        return "ok"
