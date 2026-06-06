@@ -11,3 +11,6 @@ class LibraryService:
 
     def summarize(self) -> str:
         return "ok"
+
+    def ping(self) -> str:
+        return "pong"
