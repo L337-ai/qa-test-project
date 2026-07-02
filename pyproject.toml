@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "qa-test-project"
-version = "0.1.14"
+version = "0.1.15"
 description = "QA test fixture: project depending on qa-test-library for agent-coder end-to-end tests"
 authors = []
 readme = "README.md"
