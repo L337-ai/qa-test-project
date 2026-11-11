@@ -2,7 +2,7 @@
 
 [[package]]
 name = "qa-test-library"
-version = "0.1.33"
+version = "0.1.34"
 description = "QA test fixture: simple Python library for agent-coder integration tests"
 optional = false
 python-versions = "^3.11"
@@ -14,7 +14,7 @@ develop = false
 type = "git"
 url = "https://github.com/L337-ai/qa-test-library.git"
 reference = "main"
-resolved_reference = "fd844e553bc0248b7f79a58f661ba5315f7b61e3"
+resolved_reference = "34d54fec2069c65fc1f0bfb64bff9e6af360e1cb"
 
 [metadata]
 lock-version = "2.1"
